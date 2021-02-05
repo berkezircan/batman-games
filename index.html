@@ -1,22 +1,59 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <!-- Basic page info -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Batman Games</title>
 
     <!-- CSS includes -->
-    <link rel="stylesheet" href="dist/css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="dist/css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-light bg-light justify-content-between mb-4">
+      <a class="navbar-brand">Navbar</a>
+      <form class="form-inline">
+        <input
+          class="form-control mr-sm-2"
+          type="search"
+          placeholder="Search"
+          aria-label="Search"
+        />
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+          Search
+        </button>
+      </form>
+    </nav>
+
     <div class="container">
-        <h1>Batman Games</h1>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="https://originassets.akamaized.net/origin-com-store-final-assets-prod/195763/142.0x200.0/1040463_MB_142x200_en_US_^_2017-09-08-15-21-36_d7034d41216b6dc201fb20e0cee37c1e66190a11.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
-
-<!-- JavaScript includes -->
-<script src="dist/js/app.js"></script>
-</body>
+    <!-- JavaScript includes -->
+    <script src="dist/js/app.js"></script>
+  </body>
 </html>

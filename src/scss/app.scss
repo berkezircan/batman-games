@@ -2,5 +2,9 @@
 // $bootstrap-variable: value;
 
 // Import main Bootstrap styles
-@import "~bootstrap/scss/bootstrap";
-@import "material-icons";
+@import '~bootstrap/scss/bootstrap';
+@import 'material-icons';
+
+.card-img-top {
+  height: 200px;
+}
