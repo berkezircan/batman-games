@@ -1,23 +1,4 @@
-# Webpack Bootstrap 4 template
-
-### Description
-
-This project contains preconfigured Webpack 4 to work with the following tasks:
-
-- Compile `SCSS` to `CSS`
-- Optimize images (`*.png`, `*.jpeg`, `*.gif`)
-- Convert `SVG` into inline `'data:image'` format
-- Fonts loader
-- Automatic copy `static` directory to the `dist` directory
-- Production optimization (styles, JavaScript, images)
-- Build source maps
-
-### Includes
-
-- Bootstrap 4 (SCSS, JS)
-- jQuery
-- Popper
-- Google Material Icons
+### I used webpack for building bootstrap and scss
 
 ### Installation
 
@@ -37,14 +18,6 @@ npm run build
 ```
 
 - **Good luck!**
-
-### Tasks
-
-- Build sources - `npm run build`
-- Start file watcher for recompiling - `npm run watch`
-- Start webpack dev server - `npm run start`
-- Build sources for production (**with optimization**) - `npm run production`
-- Clean '`dist`' folder - `npm run clear`
 
 ### Tasks
 
