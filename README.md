@@ -4,6 +4,8 @@
 
 - Execute a command from the root directory
 
+- You can find the files in src directory (js, scss etc.)
+
 ```
 npm install
 ```
