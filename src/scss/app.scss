@@ -1,10 +1,66 @@
 // Your custom variables should be here
 // $bootstrap-variable: value;
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
 // Import main Bootstrap styles
 @import '~bootstrap/scss/bootstrap';
 @import 'material-icons';
 
+// Assets
+@import './utils/colors.scss';
+@import './utils/fonts.scss';
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #485563; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #29323c,
+    #485563
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #29323c,
+    #485563
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 .card-img-top {
   height: 200px;
+}
+
+.navbar {
+  background-color: $dark-color;
+
+  &-brand {
+    color: $white-color !important;
+  }
+}
+
+.card {
+  margin-bottom: 20px;
+  background-color: $dark-color;
+  color: $white-color;
+}
+
+.button-outline-info {
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  text-align: center;
+}
+
+.spinner-border {
+  height: 20rem;
+  width: 20rem;
+}
+
+#movie-container {
+  justify-content: center;
+}
+
+.modal-image {
+  width: 100%;
+  height: 150px;
 }

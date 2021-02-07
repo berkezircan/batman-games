@@ -1,6 +1,3 @@
 import 'bootstrap';
+import 'axios';
 import './movies';
-
-$(document).ready(function () {
-  console.log('Webpack loaded!');
-});
