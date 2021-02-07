@@ -78,9 +78,11 @@ function getCurrentGameInfo(gameID) {
                 <td>${deal.price}</td>
                 <td>${deal.retailPrice}</td>
                 <td>
-                  <button href="#" class="btn btn-info btn-block">
+                <a href=${`https://www.cheapshark.com/redirect?dealID=${deal.dealID}`} _blank>
+                <button class="btn btn-info btn-block">
                     Check The Deal
-                  </button>
+                </button>
+                </a>  
                 </td>
               </tr>
               `;
