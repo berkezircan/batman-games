@@ -8,11 +8,6 @@
 npm install
 ```
 
-- Use '`index.html`' as home page
-- Write Your own JavaScript in the file: `src/js/app.js`
-- Also Your styles may be placed in the SCSS file: `src/scss/app.scss`
-- Then run the following command to build `dev` bundle:
-
 ```
 npm run build
 ```
